@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Ecommerce Project</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    ></script>
+  </head>
+
+  <body>
+    <section id="header">
+      <a href="#"> <img src="img/logo.png" class="logo" alt="" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html" id="lg-bag"
+              ><i class="fal fa-shopping-cart"></i
+            ></a>
+          </li>
+          <a href="#" id="close"> <i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fal fa-shopping-cart"></i></a>
+        <i> </i>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+      <div class="single-pro-image">
+        <img src="" width="100%" id="MainImg" alt="" />
+
+        <div class="small-img-group" id="thumbnail-group">
+          <div class="small-img-col">
+            <img
+              src="img/products/f1.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+             
+            />
+          </div>
+
+          <div class="small-img-col">
+            <img
+              src="img/products/f2.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+              
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="img/products/f3.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="img/products/f4.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="single-pro-details">
+        <h6 id="product-category">Home / T-Shirts</h6>
+        <h4 id="product-name">Men's Fashion T-Shirt</h4>
+        <h2  id="product-price">$139.00</h2>
+        <select>
+          <option>Select Size</option>
+          <option>XL</option>
+          <option>XXL</option>
+          <option>Small</option>
+          <option>Large</option>
+        </select>
+        <input type="number" value="1" />
+        <button  id="add-to-cart" class="normal">Add To Cart</button>
+        <h4>Product Details</h4>
+        <span id="product-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+          reprehenderit laborum modi vero nemo sint ad ullam eum impedit animi
+          placeat omnis nesciunt iste tempora deserunt voluptate nam.
+          Repellendus, atque.</span
+        >
+      </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Summer Collection New Modern Design</p>
+      <div class="pro-container">
+        
+        <div class="pro" data-id="n5">
+          <img src="img/products/n5.jpg" alt="" />
+          <div class="des">
+            <span>Levis</span>
+             <h5>Denim blue shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$60</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+        <div class="pro" data-id="n6">
+          <img src="img/products/n6.jpg" alt="" />
+          <div class="des">
+            <span>DNMX</span>
+             <h5>Men's grey Shorts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$85</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+        <div class="pro" data-id="n7">
+          <img src="img/products/n7.jpg" alt="" />
+          <div class="des">
+            <span>Teamsprit</span>
+            <h5>Men's brown shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+        <div class="pro" data-id="n8">
+          <img src="img/products/n8.jpg" alt="" />
+          <div class="des">
+            <span>Manyavar</span>
+            <h5>Men's Kurta</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$85</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up for Newsletters</h4>
+        <p>
+          Get e-mail updates about our latest shop and
+          <span> special offers </span>
+        </p>
+      </div>
+
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="img/logo.png" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> 562 Wellington Road, Street 32, San
+          Francisco
+        </p>
+        <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign in</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p><p>© 2024, Cara - All rights reserved</p></p>
+      </div>
+    </footer>
+    <script>
+  // Simulated product data - You can move this to a separate JSON later
+  const products = {
+    f1: {
+      id: "f1",
+      name: "Cartoon Astronaut Shirts",
+      price: 78,
+      img: "img/products/f1.jpg",
+      thumbnails: [
+        "img/products/f1.jpg",
+        "img/products/f2.jpg",
+        "img/products/f3.jpg",
+        "img/products/f4.jpg"
+      ],
+      category: "Shirts",
+      description: "This is a stylish astronaut t-shirt perfect for any casual occasion."
+    },
+    f2: {
+      id: "f2",
+      name: "Green Floral Shirts",
+      price: 75,
+      img: "img/products/f2.jpg",
+      thumbnails: [
+        "img/products/f2.jpg",
+        "img/products/f3.jpg",
+        "img/products/f4.jpg",
+        "img/products/f5.jpg"
+      ],
+      category: "Shirts",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+     f3: {
+      id: "f3",
+      name: "Cartoon Red Floral Shirts",
+      price: 80,
+      img: "img/products/f3.jpg",
+      thumbnails: [
+        "img/products/f2.jpg",
+        "img/products/f3.jpg",
+        "img/products/f4.jpg",
+        "img/products/f5.jpg"
+      ],
+      category: "T-Shirts",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+     f4: {
+      id: "f4",
+      name: "White Floral Shirts",
+      price: 65,
+      img: "img/products/f4.jpg",
+      thumbnails: [
+        "img/products/f2.jpg",
+        "img/products/f3.jpg",
+        "img/products/f4.jpg",
+        "img/products/f5.jpg"
+      ],
+      category: "Shirts",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+     f5: {
+      id: "f5",
+      name: "Violet Pink Shirt",
+      price: 60,
+      img: "img/products/f5.jpg",
+      thumbnails: [
+        "img/products/f7.jpg",
+        "img/products/f8.jpg",
+      "img/products/f4.jpg",
+        "img/products/f5.jpg"
+      ],
+      category: "Shirts",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+    f6: {
+      id: "f6",
+      name: "Stylish Bule Brown Shirt",
+      price: 85,
+      img: "img/products/f6.jpg",
+      thumbnails: [
+        "img/products/f6.jpg",
+        "img/products/f7.jpg",
+        "img/products/f8.jpg",
+      "img/products/f4.jpg",
+      ],
+      category: "Shirts",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+    f7: {
+      id: "f7",
+      name: "Payjama",
+      price: 78,
+      img: "img/products/f7.jpg",
+      thumbnails: [
+        "img/products/f7.jpg",
+        "img/products/f8.jpg",
+      "img/products/f4.jpg",
+        "img/products/f5.jpg"
+      ],
+      category: "Bottomwear",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+    f8: {
+      id: "f8",
+      name: "Light Brown kurti",
+      price: 85,
+      img: "img/products/f8.jpg",
+      thumbnails: [
+        "img/products/f8.jpg",
+        "img/products/f7.jpg",
+      "img/products/f4.jpg",
+        "img/products/f5.jpg"
+      ],
+      category: "Ladies Wear",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+    n1: {
+      id: "n1",
+      name: "Light Blue Shirts",
+      price: 78,
+      img: "img/products/n1.jpg",
+      thumbnails: [
+        "img/products/n1.jpg",
+        "img/products/f7.jpg",
+        "img/products/f8.jpg",
+      "img/products/f4.jpg",
+      ],
+      category: "Shirts",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+    n2: {
+      id: "n2",
+      name: "Grey checked Shirt",
+      price: 75,
+      img: "img/products/n2.jpg",
+      thumbnails: [
+        "img/products/n1.jpg",
+        "img/products/n2.jpg",
+        "img/products/f8.jpg",
+      "img/products/f4.jpg",
+      ],
+      category: "Shirts",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+     n3: {
+      id: "n3",
+      name: "Cotton white shirts",
+      price: 80,
+      img: "img/products/n3.jpg",
+      thumbnails: [
+        "img/products/n1.jpg",
+        "img/products/n2.jpg",
+        "img/products/n3.jpg",
+      "img/products/f4.jpg",
+      ],
+      category: "Shirts",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+     n4: {
+      id: "n4",
+      name: "Men's printed shirts",
+      price: 65,
+      img: "img/products/n4.jpg",
+      thumbnails: [
+        "img/products/n1.jpg",
+        "img/products/n2.jpg",
+        "img/products/n3.jpg",
+      "img/products/f4.jpg",
+      ],
+      category: "Shirts",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+    n5: {
+      id: "n5",
+      name: "Denim blue shirts",
+      price: 60,
+      img: "img/products/n5.jpg",
+      thumbnails: [
+        "img/products/n1.jpg",
+        "img/products/n2.jpg",
+        "img/products/n3.jpg",
+      "img/products/n5.jpg",
+      ],
+      category: "Shirts",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+    n6: {
+      id: "n6",
+      name: "Men's grey Shorts",
+      price: 85,
+      img: "img/products/n6.jpg",
+      thumbnails: [
+        "img/products/n1.jpg",
+        "img/products/n2.jpg",
+        "img/products/n6.jpg",
+      "img/products/n5.jpg",
+      ],
+      category: "Shirts",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+    n7: {
+      id: "n7",
+      name: "Men's brown shirts",
+      price: 78,
+      img: "img/products/n7.jpg",
+      thumbnails: [
+        "img/products/n1.jpg",
+        "img/products/n7.jpg",
+        "img/products/n6.jpg",
+      "img/products/n5.jpg",
+      ],
+      category: "Shirts",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+     n8: {
+      id: "n8",
+      name: "Men's Kurta",
+      price: 85,
+      img: "img/products/n8.jpg",
+      thumbnails: [
+        "img/products/n1.jpg",
+        "img/products/n7.jpg",
+        "img/products/n6.jpg",
+      "img/products/n5.jpg",
+      ],
+      category: "T-Shirts",
+      description: "Embark on a galactic journey with this comfortable and cool tee."
+    },
+    
+    // Add more as needed...
+  };
+
+  function getProductIdFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get("id");
+  }
+
+  function loadProductDetails() {
+    const productId = getProductIdFromURL();
+    const product = products[productId];
+
+    if (!product) return;
+
+    document.getElementById("MainImg").src = product.img;
+    document.getElementById("product-category").textContent = `Home / ${product.category}`;
+    document.getElementById("product-name").textContent = product.name;
+    document.getElementById("product-price").textContent = `$${product.price}`;
+    document.getElementById("product-description").textContent = product.description;
+
+    const thumbnails = product.thumbnails.map(src => `
+      <div class="small-img-col">
+        <img src="${src}" width="100%" class="small-img" alt="">
+      </div>
+    `).join("");
+
+    document.getElementById("thumbnail-group").innerHTML = thumbnails;
+
+    // Thumbnail image switching
+    document.querySelectorAll(".small-img").forEach(img => {
+      img.addEventListener("click", () => {
+        document.getElementById("MainImg").src = img.src;
+      });
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", loadProductDetails);
+</script>
+
+    <script src="script.js"></script>
+    <!-- Cart Notification -->
+<div id="cart-notification" class="cart-notification">
+  <i class="fas fa-check-circle"></i>
+  <div class="notification-content">
+    <img class="notification-image" id="notification-image" src="" alt="">
+    <div class="notification-text">
+      <strong id="notification-title">Success!</strong>
+      <span id="notification-message">Item added to cart</span>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
