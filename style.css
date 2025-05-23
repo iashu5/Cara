@@ -314,7 +314,7 @@ button.normal {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(/img/banner/b17.jpg);
+  background-image: url(./img/banner/b17.jpg);
   min-width: 580px;
   height: 50vh;
   background-size: cover;
